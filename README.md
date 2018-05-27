@@ -1,2 +1,2 @@
-# str1
-one
+#
+print (1+1)
