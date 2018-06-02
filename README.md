@@ -1,2 +1,6 @@
-#
-print (1+1)
+2018-6-2日
+if else
+def()
+class,self
+import []
+Error
