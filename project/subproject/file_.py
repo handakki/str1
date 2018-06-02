@@ -1,0 +1,12 @@
+fp = open('H:/github/test1/readme.txt','a+')
+fp.writelines('0123456789')
+print ("写入数据后指针位置：",fp.tell())
+fp.seek(0)
+print ('指针移动到位置起始位置',fp.tell())
+fp.seek(3)
+print ('向后移动3个字节后位置是:',fp.tell())
+print(fp.read(3))
+print('读取3个字节后位置：',fp.tell())
+fp.seek(1,0)
+print ('指针后所有数据是：',fp.read())
+fp.close

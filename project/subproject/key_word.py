@@ -1,0 +1,11 @@
+import sys
+print (sys.version)
+print (sys.platform)
+print (sys.path)
+print (sys.maxsize)
+#print (float('inf'))
+sys.stdout.write('duang\n')
+str = sys.stdin.readline()
+print (str)
+sys.stdout.write(str)
+sys.exit()
